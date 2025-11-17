@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C3B38196-97AA-4273-B497-DBC31C60DEAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presantation", "Presantation", "{D9522BCB-9309-4256-BE6D-EA10865015EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApi.Application", "Core\OnionApi.Application\OnionApi.Application.csproj", "{0E759140-F72F-4D6B-83E7-E519C136F5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApi.Domain", "Core\OnionApi.Domain\OnionApi.Domain.csproj", "{9ABD84E6-725A-4904-9CD2-EFF14A9E65B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApi.Infrastructure", "Infrastructure\OnionApi.Infrastructure\OnionApi.Infrastructure.csproj", "{76D01919-AFCE-449D-9BE7-164658A49D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApi.Persistance", "Infrastructure\OnionApi.Persistance\OnionApi.Persistance.csproj", "{2AD9A61C-25A7-4CB3-9389-CC072FF17BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApi.Api", "Presantation\OnionApi.Api\OnionApi.Api.csproj", "{0D817C9F-FE32-4F82-BEC9-9AB45E96C8B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E759140-F72F-4D6B-83E7-E519C136F5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E759140-F72F-4D6B-83E7-E519C136F5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E759140-F72F-4D6B-83E7-E519C136F5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E759140-F72F-4D6B-83E7-E519C136F5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABD84E6-725A-4904-9CD2-EFF14A9E65B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABD84E6-725A-4904-9CD2-EFF14A9E65B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABD84E6-725A-4904-9CD2-EFF14A9E65B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABD84E6-725A-4904-9CD2-EFF14A9E65B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D01919-AFCE-449D-9BE7-164658A49D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D01919-AFCE-449D-9BE7-164658A49D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D01919-AFCE-449D-9BE7-164658A49D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D01919-AFCE-449D-9BE7-164658A49D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD9A61C-25A7-4CB3-9389-CC072FF17BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD9A61C-25A7-4CB3-9389-CC072FF17BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD9A61C-25A7-4CB3-9389-CC072FF17BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD9A61C-25A7-4CB3-9389-CC072FF17BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D817C9F-FE32-4F82-BEC9-9AB45E96C8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D817C9F-FE32-4F82-BEC9-9AB45E96C8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D817C9F-FE32-4F82-BEC9-9AB45E96C8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D817C9F-FE32-4F82-BEC9-9AB45E96C8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E759140-F72F-4D6B-83E7-E519C136F5AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9ABD84E6-725A-4904-9CD2-EFF14A9E65B3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{76D01919-AFCE-449D-9BE7-164658A49D4A} = {C3B38196-97AA-4273-B497-DBC31C60DEAA}
+		{2AD9A61C-25A7-4CB3-9389-CC072FF17BCF} = {C3B38196-97AA-4273-B497-DBC31C60DEAA}
+		{0D817C9F-FE32-4F82-BEC9-9AB45E96C8B0} = {D9522BCB-9309-4256-BE6D-EA10865015EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69D96A3B-6131-4016-B8A2-494B3146AD9E}
+	EndGlobalSection
+EndGlobal
