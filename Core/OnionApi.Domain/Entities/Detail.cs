@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OnionApi.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OnionApi.Domain.Entities
 {
-    public class Detail
+    public class Detail:EntityBase
     {
 
         public Detail()
@@ -22,7 +23,7 @@ namespace OnionApi.Domain.Entities
         public required int CategoryId { get; set; }
         public required string Title { get; set; }
         public required string Description { get; set; }
-        public required Category Category { get; set; }
+        public  Category Category { get; set; }
 
     }
 }
